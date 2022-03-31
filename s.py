@@ -7,7 +7,8 @@ import time
 list = [
 ]
 mega = Mega()
-m = mega.login('yifeca5778@kuruapp.com', 'Israr@1990')
+#Твои логин и пароль от кабинета Mega
+m = mega.login('your email', 'your password')
 
 
 def progress_func(stream, chunk, bytes_remaining):
